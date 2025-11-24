@@ -1,0 +1,12 @@
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1{
+    margin-bottom: 0.5rem;
+  }
+  .list-header-badge{
+    color:var(--color-text-secondary);
+  }
+}
+

@@ -1,0 +1,36 @@
+.list-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list-card-title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.list-card-subtitle {
+  color: var(--color-text-secondary);
+  font-size: 0.875rem;
+}
+
+.list-card-footer {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.list-card-badge {
+  background-color: rgba(99, 102, 241, 0.1);
+  color: var(--color-accent);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
